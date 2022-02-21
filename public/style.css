@@ -1,0 +1,22 @@
+
+ .registration {
+		text-align: center;
+		margin-top: 1em;
+		font-size: 16px;
+	}
+	.registration a {
+		color: #337ab7;
+	}
+	
+	.registration a:hover{
+		color: #f2b33f;
+	}
+
+	body {
+		padding: 50px;
+		font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	  }
+	  
+	  a {
+		color: #00B7FF;
+	  }

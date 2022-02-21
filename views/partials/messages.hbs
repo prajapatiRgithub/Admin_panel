@@ -1,0 +1,18 @@
+{{!-- {{#each messages.error}}
+  <div class="alert alert-danger">{{ this }}</div>
+{{/each}}
+
+{{#each messages.success}}
+  <div class="alert alert-success">{{ this }}</div>
+{{/each}} --}}
+
+{{#if (typeof error !== 'undefined' && error.length > 0}}
+<div class="alert alert-orange">
+  {{this}}
+</div>
+{{/if}}
+
+
+
+
+
