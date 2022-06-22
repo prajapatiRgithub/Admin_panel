@@ -24,7 +24,7 @@ exports.signup = async(req, res) => {
     try {
         let { error } = registrationValidate(req.body);
         if (error) {
-            if (error.details[0].context.key == 'fname') {
+            if (error.details[0].context.key == 'ssname') {
                 var err1 = error.details[0].message;
                 return res.render('registration', {
                     error1: err1,
